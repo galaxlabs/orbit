@@ -52,9 +52,9 @@ orbit runserver --host 0.0.0.0 --port 8000
 orbit migrate
 orbit doctype-generate "Customer"
 
-License
+#License
 
-MIT © Galaxy Lab
+#MIT © Galaxy Lab
 
 
 
@@ -72,9 +72,9 @@ CLI (orbit) with runserver, migrate, doctype-generate
 Swagger /schema, ReDoc /schema/redoc
 
 
-Roadmap
+# Roadmap
 
- orbit setup wizard (choose DB: sqlite/postgres/mysql; install redis/celery/nginx/ssl helpers)
+ # Orbit setup wizard (choose DB: sqlite/postgres/mysql; install redis/celery/nginx/ssl helpers)
 
  orbit new-site, orbit create-app, orbit add-module, orbit add-doctype UX
 
