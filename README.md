@@ -10,7 +10,9 @@ It provides a DocType factory that generates Django models, REST viewsets, and a
 - Bootstrap script: `bootstrap_orbit.sh` (one-shot workspace creator)
 
 ## Quickstart
-```bash
+
+## bash
+
 cd ~/orbit
 source .venv/bin/activate
 orbit runserver --host 0.0.0.0 --port 8000
@@ -31,7 +33,7 @@ It provides a DocType factory that generates Django models, REST viewsets, and a
 
 ## Quickstart
 
-```bash
+## bash
 
 cd ~/orbit
 source .venv/bin/activate
@@ -52,13 +54,13 @@ orbit runserver --host 0.0.0.0 --port 8000
 orbit migrate
 orbit doctype-generate "Customer"
 
-#License
+# License
 
-#MIT © Galaxy Lab
+# MIT © Galaxy Lab
 
 
 
-Changelog
+# Changelog
 0.0.1 — Bootstrap
 
 Workspace bootstrap script (bootstrap_orbit.sh)
@@ -90,8 +92,8 @@ Swagger /schema, ReDoc /schema/redoc
 
  Packaging to PyPI and installable orbit globally
 
-Tasks / Status
-Done
+## Tasks / Status
+# Done
 
 Bootstrap shell: creates venv, installs deps, writes project, migrates.
 
@@ -118,7 +120,7 @@ Write generator tests (pytest) and minimal CI.
 
 
 # 3) Developer guide + contributing
-```bash
+## bash
 
 # Contributing
 
