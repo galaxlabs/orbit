@@ -1,0 +1,13 @@
+site_name: Orbit
+theme:
+  name: material
+nav:
+  - Overview: index.md
+  - CLI: cli.md
+  - Architecture: architecture.md
+  - Roadmap: ../ROADMAP.md
+  - Changelog: ../CHANGELOG.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

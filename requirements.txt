@@ -1,0 +1,14 @@
+Django>=5.1,<6.0
+djangorestframework>=3.15
+drf-spectacular>=0.27
+django-filter>=24.3
+django-guardian>=2.4
+dj-database-url>=2.2
+pydantic>=2.9
+python-dateutil>=2.9
+orjson>=3.10
+typer>=0.12
+rich>=13.9
+tablib[xls,xlsx]>=3.5
+# DB drivers
+psycopg[binary]>=3.2

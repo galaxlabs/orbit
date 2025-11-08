@@ -1,0 +1,14 @@
+.venv/
+*.pyc
+__pycache__/
+*.sqlite3
+/static/
+.env
+.DS_Store
+.idea/
+.vscode/
+dist/
+build/
+.eggs/
+.site/
+.site_cache/

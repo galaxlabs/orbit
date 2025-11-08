@@ -1,0 +1,5 @@
+secret_key: kWJPgNpHwQc8n72oHUC5ZnavFjl3LN_AVC91y6R6UbeyshHFmFO6vSBKQJANpQVu
+debug: 1
+database_url: sqlite:////home/pwdev/orbit/orbit.sqlite3
+allowed_hosts: ["*"]
+site: { name: "Orbit Dev" }

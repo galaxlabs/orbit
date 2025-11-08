@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbit-starter"
+version = "0.0.1"
+description = "Orbit starter (DocType core + CLI)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "Django>=5.1,<6.0",
+  "djangorestframework>=3.15",
+  "drf-spectacular>=0.27",
+  "django-filter>=24.3",
+  "django-guardian>=2.4",
+  "dj-database-url>=2.2",
+  "pydantic>=2.9",
+  "python-dateutil>=2.9",
+  "orjson>=3.10",
+  "typer>=0.12",
+  "rich>=13.9",
+  "tablib[xls,xlsx]>=3.5",
+  "psycopg[binary]>=3.2"
+]
+
+[project.scripts]
+orbit = "tools.orbit_cli.main:app"
