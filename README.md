@@ -17,7 +17,7 @@ orbit runserver --host 0.0.0.0 --port 8000
 # Swagger: http://<ip>:8000/schema/   Admin: http://<ip>:8000/admin/
 
 
-cat > README.md <<'MD'
+
 # Orbit — Meta-Driven DocType Framework (Django + DRF)
 
 Orbit is a batteries-included meta framework inspired by Frappe/ERPNext, Odoo, etc.
@@ -32,6 +32,7 @@ It provides a DocType factory that generates Django models, REST viewsets, and a
 ## Quickstart
 
 ```bash
+
 cd ~/orbit
 source .venv/bin/activate
 orbit runserver --host 0.0.0.0 --port 8000
@@ -56,7 +57,6 @@ License
 MIT © Galaxy Lab
 
 
-cat > CHANGELOG.md <<'MD'
 
 Changelog
 0.0.1 — Bootstrap
@@ -71,8 +71,6 @@ CLI (orbit) with runserver, migrate, doctype-generate
 
 Swagger /schema, ReDoc /schema/redoc
 
-
-cat > ROADMAP.md <<'MD'
 
 Roadmap
 
@@ -91,9 +89,6 @@ Roadmap
  Multi-tenant + site routing + ops commands (orbit ops dns|ssl|proxy)
 
  Packaging to PyPI and installable orbit globally
-
-
-cat > TASKS.md <<'MD'
 
 Tasks / Status
 Done
@@ -124,7 +119,7 @@ Write generator tests (pytest) and minimal CI.
 
 # 3) Developer guide + contributing
 ```bash
-cat > CONTRIBUTING.md <<'MD'
+
 # Contributing
 
 - Branching: `main` (stable), feature branches as `feat/<short-name>`.
@@ -139,6 +134,4 @@ cat > CONTRIBUTING.md <<'MD'
 1. Bump version in `pyproject.toml`.
 2. Update `CHANGELOG.md`.
 3. Tag + push: `git tag vX.Y.Z && git push --tags`.
-
-
 
