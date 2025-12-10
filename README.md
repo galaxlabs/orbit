@@ -120,7 +120,7 @@ Write generator tests (pytest) and minimal CI.
 
 
 # 3) Developer guide + contributing
-## bash
+```bash
 
 # Contributing
 
